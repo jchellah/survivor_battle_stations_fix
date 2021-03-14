@@ -1,0 +1,17 @@
+"Games"
+{
+	"left4dead2"
+	{
+		"Signatures"
+		{
+			// Search for string "Retreating from dangerous threat!"
+			"SurvivorLegsStayClose::Update"
+			{
+				"library"	"server"
+				"linux"		"@_ZN21SurvivorLegsStayClose6UpdateEP11SurvivorBotf"
+				// 55 8B EC 51 53 8B 5D 0C 8B 03 8B 90 ? ? 00 00
+				"windows"	"\x55\x8B\xEC\x51\x53\x8B\x5D\x0C\x8B\x03\x8B\x90\x2A\x2A\x00\x00"
+			}
+		}
+	}
+}
